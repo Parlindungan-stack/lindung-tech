@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kalkulator Teknik — Lindung Tech</title>
+<link rel="stylesheet" href="style.css"></head>
+<body>
+  <header class="navbar orange"><a class="nav-back" href="index.html">← Beranda</a><div class="logo">Kalkulator Teknik</div></header>
+  <main class="content">
+    <section class="calc-card" data-anim>
+      <h2>Hitung Volume Beton</h2>
+      <div class="calc-grid">
+        <div class="calc-block">
+          <label>Panjang (m)<input id="length" type="number"></label>
+          <label>Lebar (m)<input id="width" type="number"></label>
+          <label>Tinggi (m)<input id="height" type="number"></label>
+          <button class="btn accent" id="vol-btn">Hitung</button>
+          <p id="vol-res">Hasil: —</p>
+        </div>
+        <div class="calc-info">
+          <h3>Catatan</h3>
+          <p>Pastikan semua satuan dalam meter (m). Kalkulator untuk estimasi cepat.</p>
+          <div class="gear-decor"><img src="img/gear.jpg" alt="gear"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer small"><div>Kontak — <a href="mailto:alindungan268@gmail.com">alindungan268@gmail.com</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
